@@ -54,7 +54,7 @@ const App = () => {
         ...parsedData,
       };
       const response = await axios.post(
-        `https://backend-lovat-ten.vercel.app/bfhl`,
+        "https://backend-lovat-ten.vercel.app/bfhl",
         data
       );
       setResponseData(response?.data);
